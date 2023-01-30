@@ -270,3 +270,26 @@ Amanda is 25 years old and works as Engineer
 def guest_list(guests):
 	for name, age, job in guests:
 		print("{} is {} years old and works as {}".format(name, age, job))
+
+
+'''
+
+# Complete the code to iterate through the keys and values of the cool_beasts dictionary.
+# Remember that the items method returns a tuple of key, value for each element in the dictionary.
+
+
+cool_beasts = {"octopuses":"tentacles", "dolphins":"fins", "rhinos":"horns"}
+for ___ in cool_beasts.items():
+    print("{} have {}".format(___))
+
+'''
+
+# Minha resposta
+
+cool_beasts = {"octopuses":"tentacles", "dolphins":"fins", "rhinos":"horns"}
+for keys, values in cool_beasts.items():
+    print("{} have {}".format(keys, values))
+
+'''
+
+'''
