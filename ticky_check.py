@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+'''
+Script desenvolvido para o exame final do curso "Using Python to Interact with the Operating System"
+'''
+
 import re
 import operator
 import csv
